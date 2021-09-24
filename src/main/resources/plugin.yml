@@ -1,0 +1,5 @@
+name: EasyMonster
+version: '${project.version}'
+main: top.abmcar.easymonster.EasyMonster
+authors: [ Abmcar ]
+description: 简单的原版怪物增强

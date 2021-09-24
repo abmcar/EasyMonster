@@ -1,0 +1,501 @@
+MaxLevel: 100
+1:
+  health: 600
+  damage: 30
+  exp: 3
+  money: 6
+2:
+  health: 623
+  damage: 31
+  exp: 3
+  money: 10
+3:
+  health: 645
+  damage: 32
+  exp: 3
+  money: 14
+4:
+  health: 668
+  damage: 33
+  exp: 4
+  money: 18
+5:
+  health: 690
+  damage: 35
+  exp: 4
+  money: 23
+6:
+  health: 713
+  damage: 36
+  exp: 4
+  money: 27
+7:
+  health: 735
+  damage: 37
+  exp: 5
+  money: 31
+8:
+  health: 758
+  damage: 38
+  exp: 5
+  money: 35
+9:
+  health: 780
+  damage: 39
+  exp: 5
+  money: 39
+10:
+  health: 1190
+  damage: 60
+  exp: 6
+  money: 43
+11:
+  health: 1232
+  damage: 62
+  exp: 6
+  money: 47
+12:
+  health: 1274
+  damage: 64
+  exp: 7
+  money: 51
+13:
+  health: 1316
+  damage: 66
+  exp: 7
+  money: 54
+14:
+  health: 1358
+  damage: 68
+  exp: 8
+  money: 58
+15:
+  health: 1400
+  damage: 70
+  exp: 8
+  money: 62
+16:
+  health: 1442
+  damage: 72
+  exp: 9
+  money: 66
+17:
+  health: 1484
+  damage: 74
+  exp: 10
+  money: 69
+18:
+  health: 1526
+  damage: 76
+  exp: 10
+  money: 73
+19:
+  health: 1568
+  damage: 78
+  exp: 11
+  money: 77
+20:
+  health: 2405
+  damage: 120
+  exp: 12
+  money: 80
+21:
+  health: 2464
+  damage: 123
+  exp: 13
+  money: 84
+22:
+  health: 2522
+  damage: 126
+  exp: 14
+  money: 87
+23:
+  health: 2581
+  damage: 129
+  exp: 15
+  money: 91
+24:
+  health: 2639
+  damage: 132
+  exp: 16
+  money: 94
+25:
+  health: 2698
+  damage: 135
+  exp: 17
+  money: 98
+26:
+  health: 2756
+  damage: 138
+  exp: 18
+  money: 101
+27:
+  health: 2815
+  damage: 141
+  exp: 20
+  money: 104
+28:
+  health: 2873
+  damage: 144
+  exp: 21
+  money: 108
+29:
+  health: 2932
+  damage: 147
+  exp: 23
+  money: 111
+30:
+  health: 4020
+  damage: 201
+  exp: 24
+  money: 114
+31:
+  health: 4092
+  damage: 205
+  exp: 26
+  money: 118
+32:
+  health: 4164
+  damage: 208
+  exp: 28
+  money: 121
+33:
+  health: 4236
+  damage: 212
+  exp: 30
+  money: 124
+34:
+  health: 4308
+  damage: 215
+  exp: 33
+  money: 127
+35:
+  health: 4380
+  damage: 219
+  exp: 35
+  money: 130
+36:
+  health: 4452
+  damage: 223
+  exp: 38
+  money: 133
+37:
+  health: 4524
+  damage: 226
+  exp: 41
+  money: 136
+38:
+  health: 4596
+  damage: 230
+  exp: 44
+  money: 139
+39:
+  health: 4668
+  damage: 233
+  exp: 47
+  money: 142
+40:
+  health: 5885
+  damage: 294
+  exp: 50
+  money: 145
+41:
+  health: 5968
+  damage: 298
+  exp: 54
+  money: 148
+42:
+  health: 6050
+  damage: 303
+  exp: 58
+  money: 151
+43:
+  health: 6133
+  damage: 307
+  exp: 63
+  money: 154
+44:
+  health: 6215
+  damage: 311
+  exp: 67
+  money: 157
+45:
+  health: 6298
+  damage: 315
+  exp: 72
+  money: 160
+46:
+  health: 6380
+  damage: 319
+  exp: 78
+  money: 163
+47:
+  health: 6463
+  damage: 323
+  exp: 84
+  money: 165
+48:
+  health: 6545
+  damage: 327
+  exp: 90
+  money: 168
+49:
+  health: 6628
+  damage: 331
+  exp: 97
+  money: 171
+50:
+  health: 7850
+  damage: 393
+  exp: 104
+  money: 174
+51:
+  health: 7955
+  damage: 398
+  exp: 112
+  money: 176
+52:
+  health: 8060
+  damage: 403
+  exp: 120
+  money: 179
+53:
+  health: 8165
+  damage: 408
+  exp: 129
+  money: 182
+54:
+  health: 8270
+  damage: 414
+  exp: 139
+  money: 184
+55:
+  health: 8375
+  damage: 419
+  exp: 149
+  money: 187
+56:
+  health: 8480
+  damage: 424
+  exp: 160
+  money: 190
+57:
+  health: 8585
+  damage: 429
+  exp: 172
+  money: 192
+58:
+  health: 8690
+  damage: 435
+  exp: 185
+  money: 195
+59:
+  health: 8795
+  damage: 440
+  exp: 199
+  money: 197
+60:
+  health: 10215
+  damage: 511
+  exp: 214
+  money: 200
+61:
+  health: 10337
+  damage: 517
+  exp: 230
+  money: 202
+62:
+  health: 10458
+  damage: 523
+  exp: 247
+  money: 205
+63:
+  health: 10580
+  damage: 529
+  exp: 266
+  money: 207
+64:
+  health: 10701
+  damage: 535
+  exp: 286
+  money: 210
+65:
+  health: 10823
+  damage: 541
+  exp: 307
+  money: 212
+66:
+  health: 10944
+  damage: 547
+  exp: 330
+  money: 215
+67:
+  health: 11066
+  damage: 553
+  exp: 355
+  money: 217
+68:
+  health: 11187
+  damage: 559
+  exp: 381
+  money: 220
+69:
+  health: 11309
+  damage: 565
+  exp: 410
+  money: 222
+70:
+  health: 12680
+  damage: 634
+  exp: 441
+  money: 224
+71:
+  health: 12812
+  damage: 641
+  exp: 474
+  money: 227
+72:
+  health: 12944
+  damage: 647
+  exp: 509
+  money: 229
+73:
+  health: 13076
+  damage: 654
+  exp: 548
+  money: 231
+74:
+  health: 13208
+  damage: 660
+  exp: 589
+  money: 234
+75:
+  health: 13340
+  damage: 667
+  exp: 633
+  money: 236
+76:
+  health: 13472
+  damage: 674
+  exp: 680
+  money: 238
+77:
+  health: 13604
+  damage: 680
+  exp: 731
+  money: 240
+78:
+  health: 13736
+  damage: 687
+  exp: 786
+  money: 243
+79:
+  health: 13868
+  damage: 693
+  exp: 845
+  money: 245
+80:
+  health: 14945
+  damage: 747
+  exp: 909
+  money: 247
+81:
+  health: 15082
+  damage: 754
+  exp: 977
+  money: 249
+82:
+  health: 15218
+  damage: 761
+  exp: 1050
+  money: 252
+83:
+  health: 15355
+  damage: 768
+  exp: 1129
+  money: 254
+84:
+  health: 15491
+  damage: 775
+  exp: 1213
+  money: 256
+85:
+  health: 15628
+  damage: 781
+  exp: 1304
+  money: 258
+86:
+  health: 15764
+  damage: 788
+  exp: 1402
+  money: 260
+87:
+  health: 15901
+  damage: 795
+  exp: 1507
+  money: 262
+88:
+  health: 16037
+  damage: 802
+  exp: 1621
+  money: 264
+89:
+  health: 16174
+  damage: 809
+  exp: 1742
+  money: 267
+90:
+  health: 16710
+  damage: 836
+  exp: 1873
+  money: 269
+91:
+  health: 16845
+  damage: 842
+  exp: 2013
+  money: 271
+92:
+  health: 16980
+  damage: 849
+  exp: 2164
+  money: 273
+93:
+  health: 17115
+  damage: 856
+  exp: 2326
+  money: 275
+94:
+  health: 17250
+  damage: 863
+  exp: 2501
+  money: 277
+95:
+  health: 18960
+  damage: 948
+  exp: 2689
+  money: 279
+96:
+  health: 19122
+  damage: 956
+  exp: 2890
+  money: 281
+97:
+  health: 19284
+  damage: 964
+  exp: 3107
+  money: 283
+98:
+  health: 19446
+  damage: 972
+  exp: 3340
+  money: 285
+99:
+  health: 19608
+  damage: 980
+  exp: 3590
+  money: 287
+100:
+  health: 19770
+  damage: 989
+  exp: 3860
+  money: 289
