@@ -4,6 +4,7 @@ import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.projectiles.ProjectileSource;
 import top.abmcar.easymonster.config.ConfigData;
 import top.abmcar.easymonster.monster.MonsterUtil;
 

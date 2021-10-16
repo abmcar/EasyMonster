@@ -1,8 +1,6 @@
 package top.abmcar.easymonster.monster;
 
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Slime;
-import org.bukkit.entity.Witch;
+import org.bukkit.entity.*;
 import top.abmcar.easymonster.EasyMonster;
 import top.abmcar.easymonster.config.ConfigData;
 
@@ -16,10 +14,10 @@ public class MonsterLevel {
         int monsterHealth = ConfigData.INSTANCE.getHealth(randomLevel);
         int monsterDamage = ConfigData.INSTANCE.getDamage(randomLevel);
 //        EasyMonster.getPlugin().getLogger().info(monsterHealth + " " + monsterDamage + " " + randomLevel);
-        if (entity instanceof Witch) {
-            monsterDamage *= 4;
-            monsterHealth *= 4;
-        }
+//        if (entity instanceof Witch) {
+//            monsterDamage *= 4;
+//            monsterHealth *= 4;
+//        }
         MonsterUtil.setHealth(entity,monsterHealth);
         MonsterUtil.setDamage(entity,monsterDamage);
         if (entity instanceof Slime) {
@@ -29,6 +27,8 @@ public class MonsterLevel {
         MonsterUtil.setName(entity,typeName,randomLevel);
         entity.setHealth(monsterHealth);
         entity.setRemoveWhenFarAway(true);
+        if (entity instanceof Snowman || entity instanceof IronGolem)
+            return;
         entity.addScoreboardTag("lv" + randomLevel);
     }
 }

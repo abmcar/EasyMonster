@@ -9,8 +9,10 @@ import top.abmcar.easymonster.listener.MonsterDeathListener;
 import top.abmcar.easymonster.listener.MonsterSpawnListener;
 import top.abmcar.easymonster.listener.OtherDamageListener;
 import top.abmcar.easymonster.listener.ProjectileHitListener;
+import top.abmcar.easymonster.monster.MonsterUtil;
 
 public final class EasyMonster extends JavaPlugin {
+    public static Plugin EasyVar = Bukkit.getPluginManager().getPlugin("EasyVar");
     private static Plugin plugin;
     private Config config;
 
@@ -23,7 +25,6 @@ public final class EasyMonster extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new ProjectileHitListener(), this);
         Bukkit.getPluginManager().registerEvents(new OtherDamageListener(), this);
         // Plugin startup logic
-
     }
 
     @Override

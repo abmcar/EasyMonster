@@ -42,6 +42,9 @@ public class ConfigData {
         return config.getInt(level + ".money");
     }
 
+    public List<String> getMonsters() {
+        return config.getStringList("MonsterList");
+    }
 
     public void reload() {
 

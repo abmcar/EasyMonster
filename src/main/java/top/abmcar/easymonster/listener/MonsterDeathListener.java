@@ -13,11 +13,12 @@ import top.abmcar.easymonster.config.ConfigData;
 import top.abmcar.easymonster.monster.MonsterUtil;
 import top.abmcar.easyvar.EasyVar;
 
-import javax.swing.text.html.parser.Entity;
 
 public class MonsterDeathListener implements Listener {
     @EventHandler
     public void onMonsterDeath(EntityDeathEvent event) {
+        if (EasyMonster.EasyVar == null)
+            return;
         LivingEntity entity = event.getEntity();
         Integer nowLevel = MonsterUtil.getLevel(entity);
         if (nowLevel != -1) {
